@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+.nav{
+    width: 100vw;
+    background: #48e;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.nav__item{
+    display: inline-block;
+    
+    color: white;
+}
+
+.nav__input{
+    width: 140px;
+    height: 32px;
+    background: white;
+    border: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    display:inline-block;
+    color: #48e;
+    text-align: center;
+    margin-left: 60vw;
+}
+
+.item--botoom{
+    width: 100vw;
+    padding: 15px;
+    
+    
+}
+
+.item--link{
+    text-decoration: none;
+    width: 90px;
+    padding: 20px;
+}
+
+
+/* HOVER */
+
+.nav__input:hover{
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.nav__item:hover{
+    color: #48e;
+    background: white;
+   
+}
+
+
+@media screen and (max-width:1460px){
+    .nav__input{
+        margin-left: 40vw;
+    }
+
+}
+
+
+@media screen and (max-width:1020px){
+    .nav__input{
+        margin-left: 20vw;
+    }
+
+}
+
+
+@media screen and (max-width:720px){
+    .nav__input{
+        margin-left: 20vw;
+    }
+
+    .item--link{
+        font-size: 18px;
+    }
+}
+
+
+
+@media screen and (max-width:720px){
+    .nav__input{
+        margin-left: 7vw;
+    }
+
+    .item--link{
+        font-size: 15px;
+        padding: 20px 2px;
+    }
+    .nav{
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width:520px){
+    .nav__input{
+        margin:0;
+        width: 100px;
+    }
+
+    .item--link{
+        width: 80px;
+        font-size: 15px;
+        padding: 20px 0;
+    }
+    .nav{
+        width: 100%;
+    }
+}
